@@ -1,11 +1,51 @@
+<!-- ## Reinforce Our Understanding Of Unordered Lists Through Creation
+
+Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
+to list out the ingredients required for making a grilled cheese sandwich.  The
+ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
+
+For the first part of this challenge, in `index.html`, create an unordered list
+that displays these ingredients. Run `learn` to see if you can pass the first
+test. If you've done things correctly, you'll now be passing the first test,
+but there are more tests to pass! We now need to turn our attention to the next
+test.
+
+Okay, now, lets say we wanted to make our grilled cheese a little more exciting
+and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.
+
+To pass the second test, inside the `li` of `4 slices of cheese`, add a nested
+unordered list that lists out the three types of cheese.
+
+If your first two tests are passing, great! It's time to talk about another type
+of list! -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lists Lab</title>
+  <title>Grilled Cheese Recipe</title>
 </head>
 <body>
 
   <!-- Write your HTML in this file -->
-
+  <ul>
+    <li>2 slices of bread</li>
+    <li>
+      4 slices of cheese
+      <ul>
+        <li>cheddar</li>
+        <li>mozzarella</li>
+        <li>pepper jack</li>
+      </ul>
+    </li>
+    <li>1 tbsp of butter</li>
+  </ul>
+  
+  <ol>
+    <li>Spread butter on bread and frying pan</li>
+    <li>Place bread in frying pan and fry</li>
+    <li>Add cheese on top of bread</li>
+    <li>Cover with second slice of bread</li>
+    <li>Turn over and fry for 2 minutes</li>
+  </ol>
 </body>
 </html>
